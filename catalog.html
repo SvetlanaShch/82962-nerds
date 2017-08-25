@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+		<title>Дизайн-студия "Нёрдс"</title>        
+    </head>
+	
+	<body>
+        <header class="main-header">		                          
+			 <nav class="main-navigation">
+			   <a class="main-header-logo" href="index.html">
+			     <img src="img/index-logo.svg" width="90" height="90" alt="Логототип дизайн-студии Нёрдс">
+			   </a> 
+               <ul class="site-navigation">
+                    <li><a href="info.html">Студия</a></li>
+                    <li><a href="clients.html">Клиенты</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+                </ul>
+				<ul class="purchases">
+                    <li><a href="purchases.html">Корзина</a></li>
+				</ul>
+            </nav>
+		</header>
+		
+		<main class="conteiner">
+		  <h1 class="page-title">Магазин готовых шаблонов</h1>
+		  <section class="filters">
+		    <h2 class="visually-hidden">Фильтр товаров</h2>		    
+			<form class="filter" method="get" action="#"> <!--здесь пока не понимаю какую ссылку ставить-->
+			  <b>Стоимость:</b>
+			  <input type="range" min="0 max="15000">
+			  <p>От 0 до 15000</p>
+			  <b>Сетка:</b>
+			  <fieldset>			    
+			    <ul>
+                  <li class="filter-option">
+                     <input class="visually-hidden filter-input filter-input-radio" type="radio" name="network" value="adaptiv">
+                     Адаптивная
+                   </li>
+                  <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-radio" type="radio" name="network" value="anchored">
+                    Фиксированная
+                  </li>
+                  <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-radio" type="radio" name="network" value="rubber">
+                    Резиновая
+                  </li>				
+                </ul>
+			  </fieldset>
+			  <b>Особенности:</b>
+			  <fieldset>			    
+			    <ul>
+                  <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slaider" checked>
+                    Слайдер    
+                  </li>
+                  <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage">
+                    Блок преимуществ
+                  </li>
+                  <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked>
+                    Новости
+                  </li>	
+				  <li class="filter-option">
+				    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery">
+				    Галерея
+				  </li>
+                  <li class="filter-option">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket">
+                    Корзина
+                  </li>
+                </ul>
+			  </fieldset>		  
+			  <button type="submit" class="filter-button">Показать</button>
+			</form>
+	      </section>
+		  
+		  <section class="catalog">
+		    <b>сортировать</b>
+		    <ul class="sorting">
+               <li><a href="price.html">По цене</a></li>
+               <li><a href="type.html">По типу</a></li>
+               <li><a href="name.html">По названию</a></li>
+			</ul>  
+		    <h2 class="visually-hidden">Список готовых шаблонов</h2>
+			<ul class="catalog-list">
+			  <li class="catalog-item">
+			    <a href="sedona.html">
+                  <img src="">
+                </a>
+			  </li>	
+			  <li class="catalog-item">
+			    <a href="pink.html">
+                  <img src="">
+                </a>
+			  </li>	
+			   <li class="catalog-item">
+			    <a href="borodinski.html">
+                  <img src="">
+                </a>
+			  </li>	
+			   <li class="catalog-item">
+			    <a href="mishka.html">
+                  <img src="">
+                </a>
+			  </li>	
+			   <li class="catalog-item">
+			    <a href="A+.html">
+                  <img src="">
+                </a>
+			  </li>	
+			   <li class="catalog-item">
+			    <a href="kvast.html">
+                  <img src="">
+                </a>
+			  </li>	
+			</ul>  
+			<ul class="pagination-list">
+                <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+                <li class="pagination-item"><a href="#">2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+                <li class="pagination-item"><a href="#">следующая</a></li>					
+            </ul>
+		  </section>
+		</main>
+		<footer class="main-footer">
+		  <img src="maps">
+		  <p><span class="important">nёrds design studio</span></p>
+		  <p>191186, Санкт-Петербург,<br>
+		     ул. Б. Конюшенная, д. 19/8
+          </p>
+		  <p>тел. +7(812)275-75-75
+		  </p>
+		  <a class="button" href="connect.html">напишите нам</a>
+		  <div class="footer-social">
+		    <ul>
+			  <li><a class="social-button" href="#">Вконтакте</a></li>
+			  <li><a class="social-button" href="#">Фейсбук</a></li>
+			  <li><a class="social-button" href="#">Инстаграм</a></li>
+			</ul>  
+		    <b>Давайте дружить, это выгодно!</b>
+			<p>Скидка 10% для друзей из социальных сетей.</p>		
+		  </div>
+		</footer>
+	</body>
+</html>	
