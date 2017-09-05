@@ -2,7 +2,9 @@
     <head>
         <meta charset="utf-8">
 		<title>Дизайн-студия "Нёрдс"</title>  
-		<link href="css/style.css" rel="stylesheet">      
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">     
     </head>
 	
 	<body>
@@ -66,14 +68,14 @@
 			    <h3>приложения</h3>
 			    <p>Покорите топ-10 приложений в<br>
 				   AppStore и GooglePlay</p> 
-			    <a class="button" href="app.html">заказать</a>	 
+			    <a class="button app" href="app.html">заказать</a>	 
 			  </li>
 			  <li>
 				<img src="img/illustration-3.png" width="300" height="146">
 			    <h3>презентации</h3>
 			    <p>Вы даже не подозреваете,<br>
 				   насколько вы изумительны!</p> 
-			    <a class="button" href="presentation.html">заказать</a>	 
+			    <a class="button presentation" href="presentation.html">заказать</a>	 
 			  </li>
             </ul>
 		  </section>
@@ -128,15 +130,17 @@
 		<footer class="main-footer">
 		  <h2 class="visually-hidden">Как до нас добраться</h2>
 		  <img src="img/map.jpg" width="" height="" alt="Адрес на карте">
-		  <p><span class="important">nёrds design studio</span></p>
-		  <p>191186, Санкт-Петербург,<br>
-		     ул. Б. Конюшенная, д. 19/8
-          </p>
-		  <p>тел. +7(812)275-75-75
-		  </p>
-		  <a class="button" href="connect.html">напишите нам</a>
+		  <div class="address">
+		    <p><span class="important-address">nёrds design studio</span></p>
+		    <p>191186, Санкт-Петербург,<br>
+		       ул. Б. Конюшенная, д. 19/8
+            </p>
+		    <p>тел. +7(812)275-75-75
+		    </p>
+		    <a class="button" href="connect.html">напишите нам</a>
+		  </div>
 		  <div class="footer-social">
-		    <ul>
+		    <ul class="social-list">
 			  <li><a class="social-button" href="#">Вконтакте</a></li>
 			  <li><a class="social-button" href="#">Фейсбук</a></li>
 			  <li><a class="social-button" href="#">Инстаграм</a></li>
@@ -146,7 +150,7 @@
 		  </div>
 		</footer>
 
-		<section class="modal modal-contact">
+		<section class="modal">
           <h2>Напишите нам</h2>
           <form class="contact-form" action="#" method="post">
             <p class="contact-item">
