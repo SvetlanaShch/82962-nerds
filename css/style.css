@@ -1,0 +1,328 @@
+html,body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: normal;
+  line-height: 24px;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: #cccccc;  
+}
+
+.site-navigation,
+.purchases {
+  list-style: none;
+}
+
+.site-navigation a,
+.purchases a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.purchases a:hover,
+.purchases a:focus {
+  color: #fb565a;  
+}
+
+.site-navigation a:active,
+.purchases a:active {
+  color: #000000;
+  opacity: 0.3;
+} 
+
+.features {
+  background-color: #cccccc;   
+}
+
+.heading {
+  font-size: 55px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 55px;
+}
+
+.button {
+  font: inherit;   
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  line-height: 18px;
+
+  background-color: fb565a;  
+  border: none;
+}
+
+.button:hover,
+.button:focus,{
+  background-color: #ff3333; 
+}
+
+.button:active {
+  background-color: #cc3333;
+  color: rgba( 255, 255, 255, 0.3);
+}
+
+.button .presentation {
+  background-color: #ffcc33;
+}
+
+.button .presentation:hover,
+.button .presentation:focus, {
+  background-color: #eab534; 
+}
+
+.button .presentation:active {
+  background-color: #cc9933;
+  color: rgba( 255, 255, 255, 0.3);
+}
+
+.button .app {
+  background-color: #00cc66;
+}
+
+.button .app:hover,
+.button .app:focus, {
+  background-color: #00bc6c; 
+}
+
+.button .app: active {
+  background-color: #009966;
+  color: rgba( 255, 255, 255, 0.3);
+}
+
+.main-catalog-list {
+  list-style: none;
+}
+
+.main-catalog h3 {                        
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.info b {
+  font-size: 45px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.important {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.bigger  {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.info-list {
+  list-style-image: url("img/line.png"); /* не работает*/
+}
+
+.partners-list {
+  list-style: none;
+}
+
+.partners-item {
+  opacity: 0.2;
+}
+
+.partners-item:hover,
+.partners-item:focus {
+  opacity: 1.0;
+}
+
+.partners-item:active {
+  opacity: 0.1;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+  font-weight: normal;
+
+  background-color: #ffffff;  	
+}
+
+.important-address {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  background-color: #cccccc;
+}
+
+.footer-social b {
+  font-size: 36px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 36px;	
+}
+
+.modal {
+  color: #000000;
+  background-color: #ffffff; 
+}
+
+.modal h2{
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 45px;	
+} 
+
+.contact-item {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 18px;  
+}
+
+.contact-form input[type="text"] {
+  font: inherit;
+  color: rgba( 68, 68, 68, 0.5);
+
+  background-color: #ffffff;
+  border: 2px solid #bababa;
+}
+
+.contact-form input:focus {
+  border-color: #000000;
+}
+
+.main-header-logo:hover,
+.main-header-logo:focus {
+  opacity: 0.8;
+}
+
+.main-header-logo:active {
+  opacity: 0.3;
+}
+
+.page-title {    
+  font-size: 55px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 55px;
+
+  background-color: #cccccc;
+}
+
+.conteiner b {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.sorting a {
+  font-size: 14px;
+  color: #000000;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  opacity: 0.3;
+}
+
+.sorting a:hover,
+.sorting a:focus {
+  opacity: 0.6;
+}
+
+.sorting a:active {
+  opacity: 1.0;
+}
+
+.filter-net,
+.filter-features,
+.sorting,
+.catalog-list,
+.pagination-list {
+  list-style: none;
+}
+
+.description h3 {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 16px;
+  color: #666666;
+  font-weight: normal;
+  line-height: 18px;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.pagination-list {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.filter-button {
+  background-color: #eeeeee;
+}
+
+.filter-button:hover,
+.filter-button:focus,
+ {
+  background-color: #dfdfdf; 
+}
+
+.filter-button:active {
+  background-color: #d5d5d5;
+  color: rgba( 0, 0, 0, 0.3);
+}
+
+.filter fieldset {
+  font-size: 16px;
+  color: #283136;
+  font-weight: normal;
+  line-height: 20px;
+ 
+  border: none;
+}
